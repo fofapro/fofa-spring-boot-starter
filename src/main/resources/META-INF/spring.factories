@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.r4v3zn.fofa.springboot.starter.FofaAutoConfiguration
