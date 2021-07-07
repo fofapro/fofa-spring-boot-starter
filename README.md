@@ -21,7 +21,7 @@ A [`FOFA Pro`](https://fofa.so) SDK for `Spring Boot`, based on the [`FOFA Pro A
 <dependency>
   <groupId>com.r4v3zn.fofa</groupId>
   <artifactId>fofa-spring-boot-starter</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
 </dependency>
 ```
 
