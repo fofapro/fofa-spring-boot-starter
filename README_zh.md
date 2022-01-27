@@ -21,52 +21,52 @@
 <dependency>
   <groupId>com.r4v3zn.fofa</groupId>
   <artifactId>fofa-spring-boot-starter</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.6</version>
 </dependency>
 ```
 
 ### Gradle Groovy DSL
 
 ```java
-implementation 'com.r4v3zn.fofa:fofa-spring-boot-starter:1.0.3'
+implementation 'com.r4v3zn.fofa:fofa-spring-boot-starter:1.0.6'
 ```
 
 ### Gradle Kotlin DSL
 
 ```java
-compile("com.r4v3zn.fofa:fofa-spring-boot-starter:1.0.3")
+compile("com.r4v3zn.fofa:fofa-spring-boot-starter:1.0.6")
 ```
 
 ### Scala SBT
 
 ```java
-libraryDependencies += "com.r4v3zn.fofa" % "fofa-spring-boot-starter" % "1.0.3"
+libraryDependencies += "com.r4v3zn.fofa" % "fofa-spring-boot-starter" % "1.0.6"
 ```
 
 ### Apache Ivy
 
 ```java
-<dependency org="com.r4v3zn.fofa" name="fofa-spring-boot-starter" rev="1.0.3" />
+<dependency org="com.r4v3zn.fofa" name="fofa-spring-boot-starter" rev="1.0.6" />
 ```
 
 ### Groovy Grape
 
 ```java
 @Grapes(
-  @Grab(group='com.r4v3zn.fofa', module='fofa-spring-boot-starter', version='1.0.3')
+  @Grab(group='com.r4v3zn.fofa', module='fofa-spring-boot-starter', version='1.0.6')
 )
 ```
 
 ### Leiningen
 
 ```java
-[com.r4v3zn.fofa/fofa-spring-boot-starter "1.0.3"]
+[com.r4v3zn.fofa/fofa-spring-boot-starter "1.0.6"]
 ```
 
 ### Apache Buildr
 
 ```java
-'com.r4v3zn.fofa:fofa-spring-boot-starter:jar:1.0.3'
+'com.r4v3zn.fofa:fofa-spring-boot-starter:jar:1.0.6'
 ```
 
 ### Maven Central Badge
@@ -78,7 +78,7 @@ libraryDependencies += "com.r4v3zn.fofa" % "fofa-spring-boot-starter" % "1.0.3"
 ### PURL
 
 ```java
-pkg:maven/com.r4v3zn.fofa/fofa-spring-boot-starter@1.0.3
+pkg:maven/com.r4v3zn.fofa/fofa-spring-boot-starter@1.0.6
 ```
 
 ### Bazel
@@ -86,7 +86,7 @@ pkg:maven/com.r4v3zn.fofa/fofa-spring-boot-starter@1.0.3
 ```java
 maven_jar(
     name = "fofa-spring-boot-starter",
-    artifact = "com.r4v3zn.fofa:fofa-spring-boot-starter:1.0.3",
+    artifact = "com.r4v3zn.fofa:fofa-spring-boot-starter:1.0.6",
     sha1 = "eb6ae92fcb15ceba8833e5af8965fc5e96f840da",
 )
 ```
@@ -148,6 +148,10 @@ FofaData{mode='extended', page=1, size=8578, totalPage=86, query='app="Solr"', r
 ```
 
 ## 更新日志
+
+2022-01-27
+
+    - 升级 `java-fofa` 版本至 `1.0.5.RELEASE`
 
 2020-04-27
 

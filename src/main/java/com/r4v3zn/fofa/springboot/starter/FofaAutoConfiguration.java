@@ -35,7 +35,7 @@ import org.springframework.context.annotation.Configuration;
 public class FofaAutoConfiguration {
 
     /**
-     * Create FofaClient Bean
+     * Create FofaClient Bea
      * @param  fofaProperties fofa properties
      * @return FofaClient
      */

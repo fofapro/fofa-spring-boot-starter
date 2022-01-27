@@ -20,17 +20,17 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.r4v3zn.fofa</groupId>
     <artifactId>fofa-spring-boot-starter</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.6</version>
     <packaging>jar</packaging>
     <name>fofa-spring-boot-starter</name>
     <description>A FOFA Pro SDK for Spring Boot.</description>
-    <url>https://github.com/0nise/fofa-spring-boot-starter</url>
+    <url>https://github.com/fofapro/fofa-spring-boot-starter</url>
     <dependencies>
         <!-- FOFA Pro -->
         <dependency>
             <groupId>com.r4v3zn.fofa</groupId>
             <artifactId>fofa-core</artifactId>
-            <version>1.0.3.RELEASE</version>
+            <version>1.0.5.RELEASE</version>
         </dependency>
         <!-- Spring Boot -->
         <dependency>
@@ -85,12 +85,12 @@
     </distributionManagement>
     <issueManagement>
         <system>Github Issue</system>
-        <url>https://github.com/0nise/fofa-spring-boot-starter/issues</url>
+        <url>https://github.com/fofapro/fofa-spring-boot-starter/issues</url>
     </issueManagement>
     <scm>
-        <connection>scm:git:https://github.com/0nise/fofa-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:https://github.com/0nise/fofa-spring-boot-starter.git</developerConnection>
-        <url>https://github.com/0nise/fofa-spring-boot-starter.git</url>
+        <connection>scm:git:https://github.com/fofapro/fofa-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:https://github.com/fofapro/fofa-spring-boot-starter.git</developerConnection>
+        <url>https://github.com/fofapro/fofa-spring-boot-starter.git</url>
     </scm>
     <profiles>
         <profile>
