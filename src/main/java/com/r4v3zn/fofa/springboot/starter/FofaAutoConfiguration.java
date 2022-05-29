@@ -16,6 +16,7 @@
 package com.r4v3zn.fofa.springboot.starter;
 
 import com.r4v3zn.fofa.core.client.FofaClient;
+import com.r4v3zn.fofa.core.client.FofaConstants;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -35,7 +36,7 @@ import org.springframework.context.annotation.Configuration;
 public class FofaAutoConfiguration {
 
     /**
-     * Create FofaClient Bea
+     * Create FofaClient Bean
      * @param  fofaProperties fofa properties
      * @return FofaClient
      */
@@ -43,8 +44,11 @@ public class FofaAutoConfiguration {
     public FofaClient fofaClientService(FofaProperties fofaProperties){
         String email = fofaProperties.getEmail();
         String key = fofaProperties.getKey();
-        FofaClient client = new FofaClient(email, key);
-        return client;
+        String url = fofaProperties.getUrl();
+        if (url != null && !"".equals(url)){
+            FofaConstants.BASE_URL = url;
+        }
+        return new FofaClient(email, key);
     }
 
 }

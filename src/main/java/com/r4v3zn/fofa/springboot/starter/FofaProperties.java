@@ -37,6 +37,8 @@ public class FofaProperties {
 
     private String key;
 
+    private String url;
+
     public void setEmail(String email) {
         this.email = email;
     }
@@ -51,5 +53,13 @@ public class FofaProperties {
 
     public String getKey() {
         return key;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

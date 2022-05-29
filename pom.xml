@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.r4v3zn.fofa</groupId>
     <artifactId>fofa-spring-boot-starter</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <packaging>jar</packaging>
     <name>fofa-spring-boot-starter</name>
     <description>A FOFA Pro SDK for Spring Boot.</description>
@@ -30,23 +30,23 @@
         <dependency>
             <groupId>com.r4v3zn.fofa</groupId>
             <artifactId>fofa-core</artifactId>
-            <version>1.0.5.RELEASE</version>
+            <version>1.0.6.RELEASE</version>
         </dependency>
         <!-- Spring Boot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>2.6.7</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>2.6.7</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
-            <version>2.0.4.RELEASE</version>
+            <version>2.6.7</version>
         </dependency>
     </dependencies>
     <build>
@@ -92,6 +92,19 @@
         <developerConnection>scm:git:https://github.com/fofapro/fofa-spring-boot-starter.git</developerConnection>
         <url>https://github.com/fofapro/fofa-spring-boot-starter.git</url>
     </scm>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
     <profiles>
         <profile>
             <id>release</id>
